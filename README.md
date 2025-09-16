@@ -1,10 +1,8 @@
 # App Contactos con POO (PHP + MySQL)
 
-Este proyecto es una aplicación para la gestión de contactos
-desarrollada en PHP utilizando Programación Orientada a Objetos (POO) y
-MySQL.  
-Permite registrar, iniciar sesión y realizar operaciones CRUD (Crear,
-Leer, Actualizar y Eliminar) sobre contactos.
+Este proyecto es una aplicación para la gestión de contactos  
+desarrollada en PHP utilizando Programación Orientada a Objetos (POO) y MySQL.  
+Permite registrar, iniciar sesión y realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre contactos.
 
 ---
 
@@ -20,17 +18,21 @@ Leer, Actualizar y Eliminar) sobre contactos.
 
 ## Estructura del proyecto
 
-
 APP_CONTACTOS/
-│── app/
+│
+├── app/
+│ │
 │ ├── config/
 │ │ └── Database.php
+│ │
 │ ├── Controllers/
 │ │ ├── ContactoController.php
 │ │ └── UsuarioController.php
+│ │
 │ ├── Models/
 │ │ ├── Contacto.php
 │ │ └── Usuario.php
+│ │
 │ └── Views/
 │ ├── contactos_crear.php
 │ ├── contactos_editar.php
@@ -38,11 +40,12 @@ APP_CONTACTOS/
 │ ├── usuarios_login.php
 │ └── usuarios_registro.php
 │
-│── public/
+├── public/
 │ └── index.php
 │
-│── vendor/
-│── composer.json
+├── vendor/
+│
+└── composer.json
 
 ## Autor
 
